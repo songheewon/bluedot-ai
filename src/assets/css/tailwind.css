@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased font-noto /* font-medium */;
+  }
+
+  .keep-all {
+    word-break: keep-all;
+  }
+
+  .word-break {
+    word-break: break-word;
+  }
+}

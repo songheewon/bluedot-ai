@@ -1,0 +1,738 @@
+{
+    "count": {
+    "total": 121,
+    "trial": 1,
+    "starter": 4,
+    "basic": 36,
+    "standard": 14,
+    "pro": 7
+    },
+    "sites": [
+        {
+    "site_key": "dealbook",
+    "name": "딜북뉴스",
+    "url": "https://dealbook.co.kr/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "digitalbonanza",
+    "name": "디지털보난자",
+    "url": "https://digitalbonanza.co.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "directmedialab",
+    "name": "directmedialab",
+    "url": "https://directmedialab.com/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "jeremyletter",
+    "name": "Jeremyletter",
+    "url": "https://jeremyletter.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "koreaexpose",
+    "name": "koreaexpose",
+    "url": "https://koreaexpose.com/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "kwine",
+    "name": "k wine",
+    "url": "https://k-wine.co.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "rootasia",
+    "name": "rootasia",
+    "url": "https://rootasia.co.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "tappik",
+    "name": "언리드북",
+    "url": "https://unreadbook.com/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "techsnack",
+    "name": "Techsnack",
+    "url": "https://tech-snack.co.kr",
+    "plan": "standard"
+        },
+        {
+    "site_key": "m2lim",
+    "name": "임명묵닷컴",
+    "url": "https://m2lim.com/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "anotherthinking",
+    "name": "AnotherThinking",
+    "url": "https://anotherthinking.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "artntip",
+    "name": "아트앤팁",
+    "url": "https://grinagrim.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "ink",
+    "name": "잉크닷",
+    "url": "https://inkdot.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "lovehateclub",
+    "name": "애증의 정치클럽",
+    "url": "https://lovehateclub.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "zenerate",
+    "name": "zenerate",
+    "url": "https://realzenerate.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "mediontech",
+    "name": "메디온테크",
+    "url": "https://www.mediontech.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "choongjae",
+    "name": "이충재의인사이트",
+    "url": "https://chungjae.com/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "baseballkorea",
+    "name": "BASEBALL KOREA",
+    "url": "https://baseballkorea.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "newscool",
+    "name": "뉴스쿨",
+    "url": "https://newscool.co/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "insight-n",
+    "name": "넥스트브릿지",
+    "url": "https://insightnb.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "beyondx",
+    "name": "비욘드엑스",
+    "url": "https://beyondx.ai/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "denmark",
+    "name": "INSIDE DENMARK",
+    "url": "https://insidedenmark.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "oohnews",
+    "name": "OOH News",
+    "url": "https://oohnews.co.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "docuandnewskorea",
+    "name": "다큐앤드뉴스코리아",
+    "url": "https://docuandnewskorea.com",
+    "plan": "basic"
+        },
+        {
+    "site_key": "kunsan-univ-press",
+    "name": "군산대학교 언론사",
+    "url": "https://press.kunsan.ac.kr/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "digital-midea-insight",
+    "name": "디지털.미디어.인사이트",
+    "url": "https://digital-midea-insight.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "buffett",
+    "name": "버핏클럽",
+    "url": "https://buffettclub.co.kr/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "tamlajeju",
+    "name": "홍탐라김제주",
+    "url": "https://tamlajeju.com/",
+    "plan": "starter"
+        },
+        {
+    "site_key": "marketstatics",
+    "name": "산업별 시장정보",
+    "url": "https://statnews.net/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "marketinfo",
+    "name": "Industry Market info",
+    "url": "https://industrymarket.co.kr/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "kkwl",
+    "name": "KKWL",
+    "url": "https://7702.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "records23society",
+    "name": "기록과 사회",
+    "url": "https://archivenews.kr/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "ziphyun",
+    "name": "Ziphyun",
+    "url": "https://theprometheus.xyz/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "stead",
+    "name": "(주)도서출판길벗",
+    "url": "https://stead.withbluedot.site",
+    "plan": "basic"
+        },
+        {
+    "site_key": "goldenspirit",
+    "name": "정신세계원",
+    "url": "https://goldenspirit.kr",
+    "plan": "basic"
+        },
+        {
+    "site_key": "krgweb",
+    "name": "날리지리서치그룹",
+    "url": "https://krgweb.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "tntspeech-268",
+    "name": "tntspeech",
+    "url": "https://tntspeech.co.kr/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "messagehouse-270",
+    "name": "메시지하우스",
+    "url": "https://messagehouse.club/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "moonticket",
+    "name": "늦은밤 투자레터",
+    "url": "https://moonticket.one/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "mindfuling",
+    "name": "Mindfuling",
+    "url": "https://mindfuling.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "jejewa",
+    "name": "제제와",
+    "url": "https://jejewa.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "medeiason",
+    "name": "이상한 옴니버스",
+    "url": "https://xn--9i1bq8p7odj7bh2g24bby7b.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "1il1bo-english-348",
+    "name": "일일일보잉글리쉬",
+    "url": "https://1il1bo-english.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "cohelth",
+    "name": "cohelth",
+    "url": "https://cohelth.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "kwave",
+    "name": "Korean Wave Update",
+    "url": "https://kwave.or.kr/",
+    "plan": "starter"
+        },
+        {
+    "site_key": "yeosu-mbc",
+    "name": "MBC Local 여수",
+    "url": "https://yeosu.mbclocal.com/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "kjmbc",
+    "name": "MBC Local 광주",
+    "url": "https://kwangju.mbclocal.com/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "mokpobodo",
+    "name": "MBC Local 목포",
+    "url": "https://mokpo.mbclocal.com/",
+    "plan": "pro"
+        },
+        {
+    "site_key": "contable",
+    "name": "컨테이블",
+    "url": "https://contable.withbluedot.site/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "gains-198",
+    "name": "Gains",
+    "url": "https://gains.withbluedot.site/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "usstockstory",
+    "name": "미국주식이야기",
+    "url": "https://usstockstory.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "opini-un",
+    "name": "Opini/un",
+    "url": "https://opini-un.com/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "noteup",
+    "name": "NoteUP",
+    "url": "https://monsight.net/",
+    "plan": "starter"
+        },
+        {
+    "site_key": "landvalueup",
+    "name": "한경부동산밸류업센터",
+    "url": "https://landvalueup.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "eastside",
+    "name": "EAST SIDE",
+    "url": "https://eastside.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "hartday",
+    "name": "아트데이",
+    "url": "https://hartday.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "hamo",
+    "name": "하모",
+    "url": "https://hamo.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "babyscience",
+    "name": "베싸티비",
+    "url": "https://babyscience.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "thearth",
+    "name": "더지구",
+    "url": "https://thearth.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "thearth1",
+    "name": "더 지구",
+    "url": "https://theearth.news/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "wtn",
+    "name": "wtn",
+    "url": "https://wtn.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "seofactory",
+    "name": "seofactory",
+    "url": "https://seofactory.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "knowmad",
+    "name": "knowmad",
+    "url": "https://knowmad.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "df3dghacfexx",
+    "name": "정리",
+    "url": "https://df3dghacfexx.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "onepage",
+    "name": "onepage",
+    "url": "https://onepage.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "hjc-352",
+    "name": "황준철",
+    "url": "https://hjc.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "moneys",
+    "name": "납득이",
+    "url": "https://moneys.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "independentq",
+    "name": "독립언론 큐",
+    "url": "https://independentq.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "wooldomgne",
+    "name": "wooldongne",
+    "url": "https://wooldomgne.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "sweetnirvana",
+    "name": "스윗니르바나",
+    "url": "https://sweetnirvana.withbluedot.site/",
+    "plan": "starter"
+        },
+        {
+    "site_key": "gidosa",
+    "name": "안전동행",
+    "url": "https://gidosa.net/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "ins",
+    "name": "inss",
+    "url": "https://ins.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "insins",
+    "name": "inss",
+    "url": "https://insins.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "neocando",
+    "name": "neocando",
+    "url": "https://neocando.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "duksu",
+    "name": "쑨이네",
+    "url": "https://duksu.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "rainbowinmay",
+    "name": "정보창고",
+    "url": "https://rainbowinmay.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "musaday",
+    "name": "무사퇴근",
+    "url": "https://musaday.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "taskneko",
+    "name": "TaskNeko",
+    "url": "https://taskneko.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "unlimit",
+    "name": "unlimit",
+    "url": "https://unlimit.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "aidrivenux",
+    "name": "AI-Driven UX",
+    "url": "https://aidrivenux.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "giantstarhof",
+    "name": "거성호프",
+    "url": "https://giantstarhof.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "newstech",
+    "name": "Newstech initiative",
+    "url": "https://newstech.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "hklandvalueup",
+    "name": "한경부동산밸류업센터",
+    "url": "https://hklandvalueup.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "minapark",
+    "name": "minapark",
+    "url": "https://minapark.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "newstechini",
+    "name": "뉴스테크이니셔티브",
+    "url": "https://newstech.kr/",
+    "plan": "standard"
+        },
+        {
+    "site_key": "startup",
+    "name": "창업학교",
+    "url": "https://startup.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "kindpjs",
+    "name": "무명",
+    "url": "https://kindpjs.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "hyunseon",
+    "name": "hyunseon",
+    "url": "https://hyunseon.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "innocrew",
+    "name": "이노크루",
+    "url": "https://innocrew.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "123",
+    "name": "123",
+    "url": "https://123.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "breakpoint",
+    "name": "BreakPoint",
+    "url": "https://breakpoint.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "joung3339",
+    "name": "우호나르샤",
+    "url": "https://joung3339.withbluedot.site/",
+    "plan": "basic"
+        },
+        {
+    "site_key": "supermin",
+    "name": "supermin",
+    "url": "https://supermin.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "works",
+    "name": "works to do",
+    "url": "https://works.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "readndo",
+    "name": "READ N DO",
+    "url": "https://readndo.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "valueup-innovation",
+    "name": "밸류업이노베이션",
+    "url": "https://valueup-innovation.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "frameout",
+    "name": "프레임아웃",
+    "url": "https://frameout.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "jinnypark",
+    "name": "공원컴퍼니",
+    "url": "https://jinnypark.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "acadex",
+    "name": "아카덱스",
+    "url": "https://acadex.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "jieun",
+    "name": "jieun",
+    "url": "https://jieun.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "saju",
+    "name": "정대희 박사의 사주명리학",
+    "url": "https://saju.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "nsol",
+    "name": "자유의새노래",
+    "url": "https://nsol.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "ainextlevel",
+    "name": "AI NEXT LEVEL",
+    "url": "https://ainextlevel.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "midtwenties",
+    "name": "이중삶",
+    "url": "https://midtwenties.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "meta3",
+    "name": "메타3",
+    "url": "https://meta3.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "historypicnic",
+    "name": "역사한바퀴",
+    "url": "https://historypicnic.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "seisija",
+    "name": "서시자",
+    "url": "https://seisija.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "bluedottest-208",
+    "name": "bluedottest",
+    "url": "https://bluedottest.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "iun",
+    "name": "iun",
+    "url": "https://iun.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "wigipedia",
+    "name": "위기피디아",
+    "url": "https://wigipedia.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "andoctober",
+    "name": "류효림",
+    "url": "https://andoctober.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "flowerwolf",
+    "name": "flowerwolf",
+    "url": "https://flowerwolf.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "bama",
+    "name": "바마",
+    "url": "https://bama.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "bigwave",
+    "name": "EraVoyager",
+    "url": "https://bigwave.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "asla",
+    "name": "아슬라",
+    "url": "https://asla.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "asdfasdfasdf",
+    "name": "asdfasdf",
+    "url": "http://localhost:2368/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "mediaj",
+    "name": "미디어교육저널",
+    "url": "https://mediaj.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "mck",
+    "name": "mck",
+    "url": "https://mck.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "anoy",
+    "name": "synaps.co.kr",
+    "url": "https://anoy.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "mediawill",
+    "name": "mediawill",
+    "url": "https://mediawill.withbluedot.site/",
+    "plan": "trial"
+        },
+        {
+    "site_key": "toondock",
+    "name": "toondock",
+    "url": "https://toondock.withbluedot.site/",
+    "plan": "trial"
+        }
+    ]
+}

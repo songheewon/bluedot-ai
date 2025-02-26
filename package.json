@@ -1,0 +1,96 @@
+{
+  "name": "p-bluedot",
+  "version": "0.1.21",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@achrinza/node-ipc": "^10.1.11",
+    "@formkit/addons": "^1.2.2",
+    "@formkit/vue": "^1.0.0-beta.9",
+    "@material-tailwind/html": "^2.2.2",
+    "aos": "^2.3.4",
+    "axios": "^1.6.5",
+    "core-js": "^3.8.3",
+    "diff": "^5.1.0",
+    "flowbite": "^2.5.2",
+    "jquery": "^3.7.1",
+    "lazysizes": "^5.3.2",
+    "marked": "^4.0.18",
+    "pinia": "^2.0.14",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "text-encoding": "^0.7.0",
+    "tw-elements": "^1.1.0",
+    "vee-validate": "^4.6.9",
+    "vue": "^3.2.13",
+    "vue-date-fns": "^2.0.2",
+    "vue-gtag": "^2.0.1",
+    "vue-gtag-next": "^1.14.0",
+    "vue-router": "^4.0.3",
+    "vue3-markdown-it": "^1.0.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@formkit/themes": "^1.0.0-beta.9",
+    "@heroicons/vue": "^1.0.6",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-standard": "^6.1.0",
+    "@vuelidate/core": "^2.0.0-alpha.42",
+    "@vuelidate/validators": "^2.0.0-alpha.30",
+    "autoprefixer": "^10.4.7",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "date-fns": "^2.28.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "form-wizard-vue3": "^0.2.1",
+    "fs": "^0.0.1-security",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "node-sass": "^7.0.1",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.4.14",
+    "sass-loader": "^13.0.2",
+    "sql.js": "^1.7.0",
+    "stylus": "^0.55.0",
+    "stylus-loader": "^6.1.0",
+    "swiper": "^8.2.2",
+    "tailwindcss": "^3.0.24",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-cli-plugin-compression": "~1.2.0",
+    "vue-cli-plugin-webpack-bundle-analyzer": "~4.0.0",
+    "vue-step-wizard": "^0.1.17",
+    "vue-stepper": "^1.4.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "@vue/standard"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

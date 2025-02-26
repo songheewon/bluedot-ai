@@ -1,0 +1,137 @@
+{
+  "Partner": {
+    "users": {
+      "hasMany": "User"
+    },
+    "id": {
+      "regexp": "[a-z0-9]{25,30}"
+    },
+    "name": {
+      "regexp": "[A-Z][a-z]{5,10}"
+    },
+    "slug": {
+      "regexp": "[a-z]{5,10}"
+    },
+    "logo": {
+      "regexp": "https://picsum\\.photos/seed/[a-z0-9]{5}/200"
+    },
+    "description": {
+      "loremSentences": {
+        "minLength": 50,
+        "maxLength": 80
+      }
+    },
+    "url": {
+      "string": [
+        "user_url_test"
+      ]
+    }
+  },
+  "User": {
+    "partner": {
+      "belongsTo": "Partner"
+    },
+    "posts": {
+      "hasMany": "Post"
+    },
+    "id": {
+      "regexp": "[a-z0-9]{25,30}"
+    },
+    "name": {
+      "regexp": "[A-Z][a-z]{5,10}"
+    },
+    "slug": {
+      "regexp": "[a-z]{5,10}"
+    },
+    "email": {
+      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "profile_image": {
+      "regexp": "https://picsum\\.photos/seed/[a-z0-9]{5}/100"
+    },
+    "url": {
+      "string": [
+        "user_url_test"
+      ]
+    }
+  },
+  "Post": {
+    "author": {
+      "belongsTo": "Post"
+    },
+    "id": {
+      "regexp": "[a-z0-9]{25,30}"
+    },
+    "uuid": {
+      "regexp": "[a-z0-9-]{25,30}"
+    },
+    "title": {
+      "loremWords": {
+        "minLength": 10,
+        "maxLength": 20
+      }
+    },
+    "slug": {
+      "regexp": "[a-z0-9-]{20}"
+    },
+    "html": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
+    "comment_id": {
+      "regexp": "[a-z0-9]{25,30}"
+    },
+    "feature_image": {
+      "regexp": "https://picsum\\.photos/seed/[a-z0-9]{5}/700/300"
+    },
+    "featured": {
+      "boolean": {}
+    },
+    "visibility": {
+      "string": [
+        "public",
+        "private"
+      ]
+    },
+    "created_at": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-06-01T23:59:59Z"
+      }
+    },
+    "updated_at": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-06-01T23:59:59Z"
+      }
+    },
+    "published_at": {
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-06-01T23:59:59Z"
+      }
+    },
+    "comment_count": {
+      "int": {
+        "min": 0,
+        "max": 5000
+      }
+    },
+    "url": {
+      "string": [
+        "post_url_test"
+      ]
+    },
+    "excerpt": {
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
+    },
+    "reading_time": {
+      "int": {
+        "min": 3,
+        "max": 15
+      }
+    },
+    "access": {
+      "boolean": {}
+    }
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Apple",
+    "image": "https://picsum.photos/seed/apple/200",
+    "price": 4
+  },
+  {
+    "name": "Board",
+    "image": "https://picsum.photos/seed/board/200",
+    "price": 4
+  },
+  {
+    "name": "Computer",
+    "image": "https://picsum.photos/seed/computer/200",
+    "price": 4
+  },
+  {
+    "name": "Desktop",
+    "image": "https://picsum.photos/seed/desktop/200",
+    "price": 4
+  }
+]

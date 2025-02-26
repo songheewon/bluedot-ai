@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "name": "오터레터",
+    "slug": "otterletter",
+    "description": "테크와 국제정치, 문화를 다루는 온라인 매거진",
+    "logo": "https://picsum.photos/seed/otterletter/200",
+    "url": "https://otterletter.com/"
+  },
+  {
+    "id": 2,
+    "name": "Exciting f(x)",
+    "slug": "excitingfx",
+    "description": "디지털 전환의 소용돌이에서 각 산업 영역을 분석하고 변화의 방향을 살펴봅니다.",
+    "logo": "https://picsum.photos/seed/excitingfx/200",
+    "url": "https://excitingfx.kr/"
+  },
+  {
+    "id": 3,
+    "name": "C-Rocket",
+    "slug": "crocket",
+    "description": "디지털 시대, 테크와 뉴미디어를 이야기하는 새로운 정보 커뮤니티",
+    "logo": "https://picsum.photos/seed/crocket/200",
+    "url": "https://c-rocket.net/"
+  },
+  {
+    "id": 4,
+    "name": "Mediagotosa",
+    "slug": "mediagotosa",
+    "description": "미디어를 고민하고, 토론하고, 사랑하는 사람들의 정보 창고",
+    "logo": "https://picsum.photos/seed/mediagotosa/200",
+    "url": "https://mediagotosa.com/"
+  },
+  {
+    "id": 5,
+    "name": "Writing Duo",
+    "slug": "writingduo",
+    "description": "작가들이 함께 만나 아이디어를 나누는 글쓰기 커뮤니티",
+    "logo": "https://picsum.photos/seed/writingduo/200",
+    "url": "https://writingduo.net/"
+  },
+  {
+    "id": 6,
+    "name": "Jeremyletter",
+    "slug": "jeremyletter",
+    "description": "미디어와 엔터테인먼트, 플랫폼과 콘텐츠에 대한 생생한 소식과 분석",
+    "logo": "https://picsum.photos/seed/jeremyletter/200",
+    "url": "https://jeremyletter.com/"
+  },
+  {
+    "id": 7,
+    "name": "Korea Exposé",
+    "slug": "koreaexpose",
+    "description": "No. 1 explainer for all Korean things",
+    "logo": "https://picsum.photos/seed/koreaexpose/200",
+    "url": "https://koreaexpose.com/"
+  },
+  {
+    "id": 8,
+    "name": "Byte+",
+    "slug": "byteplus",
+    "description": "최신 비즈니스·경제·기술 트렌드를 가장 쉽고 자세하게 전달합니다.",
+    "logo": "https://picsum.photos/seed/byteplus/200",
+    "url": "https://mydailybyte.com/"
+  },
+  {
+    "id": 9,
+    "name": "객석마녀",
+    "slug": "ilovemusical",
+    "description": "무대를 사랑하는 사람들의 공연과 책이야기",
+    "logo": "https://picsum.photos/seed/ilovemusical/200",
+    "url": "https://unreadbook.com/"
+  },
+  {
+    "id": 10,
+    "name": "언리드북",
+    "slug": "unreadbook",
+    "description": "함께 읽고 천천히 지식을 쌓는 사람들의 모임",
+    "logo": "https://picsum.photos/seed/unreadbook/200",
+    "url": "https://ilovemusical.net/"
+  },
+  {
+    "id": 11,
+    "name": "Circular Cave",
+    "slug": "circularcave",
+    "description": "문학과 기억, 기록의 새로운 세계를 마주하는 경험",
+    "logo": "https://picsum.photos/seed/circularcave/200",
+    "url": "https://circularcave.com/"
+  },
+  {
+    "id": 12,
+    "name": "막걸리 기행",
+    "slug": "kwine",
+    "description": "전국에 산재한 막걸리를 마시고, 느끼고, 즐기는 기행",
+    "logo": "https://picsum.photos/seed/kwine/200",
+    "url": "https://k-wine.co.kr/"
+  },
+  {
+    "id": 13,
+    "name": "Directmedialab",
+    "slug": "directmedialab",
+    "description": "미디어 비즈니스와 저널리즘, 크리에이터 경제 이야기",
+    "logo": "https://picsum.photos/seed/directmedialab/200",
+    "url": "https://www.directmedialab.com/"
+  },
+  {
+    "id": 14,
+    "name": "루뜨아시아",
+    "slug": "rootasia",
+    "description": "아시아적 관점에 대해 고민하는 연구, 미디어 공동체",
+    "logo": "https://picsum.photos/seed/rootasia/200",
+    "url": "https://www.rootasia.co.kr/"
+  },
+  {
+    "id": 15,
+    "name": "Emeth Media+",
+    "slug": "emethmedia",
+    "description": "일본에서 들려주는 미디어, 콘텐츠, 저널리즘 이야기",
+    "logo": "https://picsum.photos/seed/emethmedia/200",
+    "url": "https://plus.emethmedia.kr/"
+  },
+  {
+    "id": 16,
+    "name": "이노망고",
+    "slug": "innomango",
+    "description": "혁신가이드 안병민이 들려주는 일과 삶의 행복한 혁신 이야기",
+    "logo": "https://picsum.photos/seed/innomango/200",
+    "url": "https://www.innomango.com/"
+  },
+  {
+    "id": 17,
+    "name": "Digital Bonanza",
+    "slug": "digitalbonanza",
+    "description": "현장을 경험을 통해 인사이트를 전달하는 디지털 전략 전문서비스",
+    "logo": "https://picsum.photos/seed/digitalbonanza/200",
+    "url": "https://digitalbonanza.co.kr/"
+  }
+]
