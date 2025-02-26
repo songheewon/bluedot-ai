@@ -1,6 +1,6 @@
 <template>
   <footer class="w-full bg-[#F6F5F7]">
-    <div class="md:w-full md:px-[15%] md:flex w-3/4 justify-between mx-auto py-14 md:py-14 text-[#0A142F] text-[12px] text-[#0A142F]">
+    <div class="md:w-full md:flex md:px-[15%] px-[3%] justify-between mx-auto py-14 md:py-14 text-[#0A142F] text-[12px] text-[#0A142F]">
       <div class="md:w-1/3">
         <div class="mb-6">
           <img class="object-cover"
@@ -42,7 +42,7 @@
           </a>
         </div>
       </div>
-      <div class="md:w-1/6 md:mt-0 mt-[50px]">
+      <div class="md:w-1/8 md:mt-0 mt-[50px]">
         <div class="text-[#0A142F] text-[15px] font-[700]">
           크리에이터 소개
         </div>
@@ -51,7 +51,7 @@
           <a class="block my-3 text-[13px]" href="https://bluedot.so/blog/about/" target="_blank">Contact Me</a>
         </div>
       </div>
-      <div class="md:w-1/6 md:mt-0 mt-[50px]">
+      <div class="md:w-1/8 md:mt-0 mt-[50px]">
         <div class="text-[#0A142F] text-[15px] font-[700]">
           약관 및 지원
         </div>
@@ -60,7 +60,7 @@
           <a class="block my-3 text-[13px]" href="https://bluedot.so/blog/privacy/" target="_blank">개인정보 처리 방침</a>
         </div>
       </div>
-      <div class="md:w-1/6 md:mt-0 mt-[50px]">
+      <div class="md:w-1/8 md:mt-0 mt-[50px]">
         <div class="text-[#0A142F] text-[15px] font-[700]">
           문의
         </div>

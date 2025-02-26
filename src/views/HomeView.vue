@@ -3,7 +3,7 @@
     <div
       class="w-full md:h-[730px] h-auto mx-auto flex flex-col items-center bg-[url('@/assets/img/home-bg.svg')] bg-cover bg-bottom bg-no-repeat"
     >
-      <div class="text-[#FFFFFF] md:text-[50px] text-[25px] font-[900] mt-[5%] md:px-[15%] px-[3%]">
+      <div class="text-[#FFFFFF] md:text-[50px] text-[25px] font-[900] mt-[5%] md:px-[15%] px-[3%] text-center">
         브랜드의 AI 전환, 'AI 검색 최적화'로 시작하세요.
       </div>
       <div class="text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[15%] px-[3%]">
@@ -12,21 +12,23 @@
       <div class="text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] md:px-[15%] px-[3%]">
         '블루닷AI'가 해결해 드립니다.
       </div>
-      <div class="md:flex md:gap-x-[20px] mt-[4%] max-md:w-[80%] max-md:mx-auto max-md:justify-center max-md:text-center">
+      <div class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
+        <div class="md:w-[100%] w-[70%]">
         <input
           type="text"
-          class="md:w-[450px] md:h-[50px] w-[100%] bg-[#4F5870] rounded-[26px] px-[20px] py-[10px] border-none text-[#FFFFFF]"
+          class="md:w-[450px] md:h-[50px] h-[30px] w-[100%] bg-[#4F5870] rounded-[26px] px-[20px] py-[10px] border-none text-[#FFFFFF]"
         />
-        <div class="w-full">
-          <button
-            class="h-[50px] bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] px-[20px] py-[10px] font-[700] text-[15px] mx-auto"
-          >
-            새소식 받기
-          </button>
-        </div>
+      </div>
+      <div class="md:w-[100%] w-[30%]">
+        <button
+          class="md:h-[50px] h-[30px] w-[100%] bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] md:px-[20px] px-[5px] md:py-[10px] py-[3px] font-[700] md:text-[15px] text-[11px]"
+        >
+          새소식 받기
+        </button>
+      </div>
       </div>
     </div>
-    <div class="flex md:mt-[-6%] mt-[5%] md:px-[15%] px-[3%] gap-x-[20px] items-center">
+    <div class="flex md:mt-[-6%] mt-[10%] md:px-[15%] px-[3%] gap-x-[20px] items-center">
       <svg
         width="44"
         height="44"
@@ -51,7 +53,7 @@
         </defs>
       </svg>
 
-      <div class="text-[#FFFFFF] text-[30px] font-[900]">
+      <div class="text-[#FFFFFF] md:text-[30px] text-[24px] font-[900] md:mb-0 mb-[10px]">
         우리의 AI 프로덕트
       </div>
     </div>
@@ -59,29 +61,30 @@
     <div class="md:px-[15%] px-[3%] mt-[2%]">
       <!-- 탭 헤더 -->
       <div
-        class="flex flex-wrap bg-[#FFFFFF] w-[100%] justify-between rounded-tl-[42px] rounded-tr-[42px]"
+        class="flex flex-wrap bg-[#FFFFFF] w-[100%] justify-between md:rounded-tl-[42px] md:rounded-tr-[42px] rounded-tl-[20px] rounded-tr-[20px]"
       >
         <ul
-          class="flex flex-wrap -mb-px text-sm font-medium text-center w-[100%] justify-between"
+          class="flex flex-wrap -mb-px text-sm font-medium text-center w-[100%] justify-between h-full"
           role="tablist"
         >
           <li
-            class="w-[20%] py-[5px]"
+            class="w-[20%] md:py-[5px]"
             role="presentation"
             v-for="(tab, index) in tabs"
             :key="index"
           >
             <button
               :class="[
-                'inline-block p-4 rounded-t-lg w-full',
+                'inline-block md:p-4 p-1 w-full h-full whitespace-normal',
                 activeTab === index
-                  ? 'text-black text-[18px] font-[700] border-b-[5px] border-[#3C72FF] active'
-                  : 'text-black text-[18px] font-[700] hover:text-gray-600 hover:border-gray-300 border-b-[5px] border-[#E8E6E6] ',
+                  ? 'text-black md:text-[18px] text-[11px] font-[700] border-b-[5px] border-[#3C72FF] active'
+                  : 'text-black md:text-[18px] text-[11px] font-[700] hover:text-gray-600 hover:border-gray-300 border-b-[5px] border-[#E8E6E6] ',
               ]"
               :id="`tab-${index}`"
               type="button"
               role="tab"
               @click="activeTab = index"
+              style="word-break: keep-all;"
             >
               {{ tab.title }}
             </button>
@@ -91,7 +94,7 @@
 
       <!-- 탭 컨텐츠 -->
       <div
-        class="bg-[#FFFFFF] px-[5%] pt-[4%] pb-[3%] flex justify-between gap-x-[4%] rounded-bl-[42px] rounded-br-[42px]"
+        class="bg-[#FFFFFF] px-[5%] pt-[4%] pb-[3%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
       >
         <div
           class="flex justify-between gap-x-[4%]"
@@ -99,21 +102,21 @@
           :key="index"
           v-show="activeTab === index"
         >
-          <div class="w-[40%]">
-            <div class="text-[#3C72FF] text-[16px] font-[700]">
+          <div class="md:w-[40%] w-[100%]">
+            <div class="text-[#3C72FF] md:text-[16px] text-[12px] font-[700]">
               {{ tab.title }}
             </div>
-            <div class="text-black font-[900] text-[36px] mt-[10px]">
+            <div class="text-black font-[900] md:text-[36px] text-[20px] mt-[10px]">
               {{ tab.content1 }}
             </div>
-            <div class="text-black font-[900] text-[36px] mt-[-5px]">
+            <div class="text-black font-[900] md:text-[36px] text-[20px] mt-[-5px]">
               {{ tab.content2 }}
             </div>
-            <div class="text-black font-[500] text-[18px] mt-[20px]">
+            <div class="text-black font-[500] md:text-[18px] text-[12px] mt-[20px]">
               {{ tab.desc }}
             </div>
           </div>
-          <div>
+          <div class="hidden md:block">
             <img :src="tab.img" />
           </div>
         </div>
@@ -121,23 +124,23 @@
     </div>
   </div>
   <div class="bg-[#D6E2FF] w-full py-[3%] md:px-[15%] px-[3%]">
-    <div class="text-[36px] font-[900]">
+    <div class="md:text-[36px] text-[24px] font-[900]">
       AI 검색이 기존 검색 시장을 위협합니다
     </div>
-    <div class="text-[20px] font-[500] mt-[15px]">
+    <div class="md:text-[20px] text-[15px] font-[500] mt-[15px]">
       <span class="font-[900]">선제적 대응</span>이 필요할 만큼 빠르게 AI 검색
       중심으로 바뀌고 있습니다
     </div>
-    <div class="text-[20px] font-[500]">
+    <div class="md:text-[20px] text-[15px] font-[500]">
       <span class="font-[900]">ChatGPT 검색</span>과 Gemini기반의
       <span class="font-[900]">구글 AI 검색</span>에 우선적으로 초점을 맞춰야
       합니다
     </div>
-    <div class="flex h-[480px] gap-x-[3%] mt-[20px]">
-      <div class="">
+    <div class="md:flex md:h-[480px] gap-x-[3%] mt-[20px]">
+      <div class="md:h-[480px] w-[70%]">
         <img src="@/assets/img/ai-search/search1.svg" />
       </div>
-      <div>
+      <div class="md:mt-0 mt-[10px]">
         <img src="@/assets/img/ai-search/search2.svg" />
       </div>
     </div>
@@ -147,12 +150,12 @@
     </div>
   </div>
   <div
-    class="bg-[#0A142F] w-full pt-[3%] md:px-[15%] px-[3%] flex justify-between gap-x-[4%] items-center"
+    class="bg-[#0A142F] w-full pt-[3%] md:px-[15%] px-[3%] justify-between gap-x-[4%] items-center md:flex block"
   >
-    <div class="w-[600px] flex-shrink-0">
-      <img class="w-[600px]" src="@/assets/img/ai-advantage/advantage.svg" />
+    <div class="md:w-[600px] w-[100%] flex-shrink-0">
+      <img class="w-full" src="@/assets/img/ai-advantage/advantage.svg" />
     </div>
-    <div class="text-white font-[500] text-[25px] leading-[40px]">
+    <div class="text-white font-[500] md:text-[25px] text-[15px] leading-[40px]">
       <a
         class="underline decoration-1 underline-offset-4 font-[700]"
         href="https://www.gartner.com/en/information-technology/topics/ai-strategy-for-business?utm_campaign=RM_GB_2023_ITAI_NPP_PR1_AISTRATEGYPILLAR"
@@ -182,12 +185,12 @@
           data-carousel-item
         >
           <div
-            class="flex flex-col items-center justify-center h-full text-center p-8 w-[430px] mx-auto"
+            class="flex flex-col items-center justify-center h-full text-center p-8 md:w-[430px] w-[75%] mx-auto"
           >
-            <p class="text-[#4F5870] text-[25px] font-[700] mb-2">
+            <p class="text-[#4F5870] md:text-[25px] text-[13px] font-[700] mb-2">
               {{ slide.mainText }}
             </p>
-            <p class="text-[#2F4CC0] text-[15px] font-[700]">{{ slide.subText }}</p>
+            <p class="text-[#2F4CC0] md:text-[15px] text-[10px] font-[700]">{{ slide.subText }}</p>
           </div>
         </div>
       </div>
@@ -259,7 +262,7 @@
 
       <!-- Slider indicators -->
       <div
-        class="absolute z-30 flex -translate-x-1/2 bottom-[-50px] left-1/2 space-x-3 rtl:space-x-reverse"
+        class="absolute z-30 flex -translate-x-1/2 md:bottom-[-50px] bottom-[30px] left-1/2 space-x-3 rtl:space-x-reverse"
       >
         <button
           v-for="(slide, index) in slides"
