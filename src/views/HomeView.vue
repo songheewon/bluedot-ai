@@ -4,29 +4,35 @@
       class="w-full md:h-[730px] h-auto mx-auto flex flex-col items-center bg-[url('@/assets/img/home-bg.svg')] bg-cover bg-bottom bg-no-repeat"
     >
       <div class="text-[#FFFFFF] md:text-[50px] text-[25px] font-[900] mt-[5%] md:px-[15%] px-[3%] text-center">
-        브랜드의 AI 전환, 'AI 검색 최적화'로 시작하세요.
+        AI 검색최적화를 위한 AtoZ AI 종합 솔루션
       </div>
-      <div class="text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[15%] px-[3%]">
-        분석과 생산, 발행과 유통까지 모든 과정을
+      <div class="text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[15%] px-[3%] text-center">
+        데이터 분석 및 전략 제안부터 제작, 발행까지
       </div>
-      <div class="text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] md:px-[15%] px-[3%]">
-        '블루닷AI'가 해결해 드립니다.
+      <div class="text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] md:px-[15%] px-[3%] text-center">
+        전과정을 도와드립니다.
       </div>
-      <div class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
+      <form @submit.prevent="handleSubmit" class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
         <div class="md:w-[100%] w-[70%]">
-        <input
-          type="text"
-          class="md:w-[450px] md:h-[50px] h-[30px] w-[100%] bg-[#4F5870] rounded-[26px] px-[20px] py-[10px] border-none text-[#FFFFFF]"
-        />
-      </div>
-      <div class="md:w-[100%] w-[30%]">
-        <button
-          class="md:h-[50px] h-[30px] w-[100%] bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] md:px-[20px] px-[5px] md:py-[10px] py-[3px] font-[700] md:text-[15px] text-[11px]"
-        >
-          새소식 받기
-        </button>
-      </div>
-      </div>
+          <input
+            id="email-input"
+            name="email"
+            type="text"
+            class="md:w-[450px] md:h-[50px] h-[30px] w-[100%] bg-[#4F5870] rounded-[26px] px-[20px] py-[10px] border-none text-[#FFFFFF]"
+          />
+          <input type="hidden" name="emailType" value="subscribe" />
+          <input type="hidden" name="withMagiclink" value="true" />
+          <input type="hidden" name="labels" value="[]" />
+          <input type="hidden" name="redirectURI" value="https://bluedot.so/blog/" />
+        </div>
+        <div class="md:w-[100%] w-[30%]">
+          <button type="submit"
+            class="md:h-[50px] h-[30px] w-[100%] bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] md:px-[20px] px-[5px] md:py-[10px] py-[3px] font-[700] md:text-[15px] text-[11px]"
+          >
+            새소식 받기
+          </button>
+        </div>
+      </form>
     </div>
     <div class="flex md:mt-[-6%] mt-[10%] md:px-[15%] px-[3%] gap-x-[20px] items-center">
       <svg
@@ -112,9 +118,14 @@
             <div class="text-black font-[900] md:text-[36px] text-[20px] mt-[-5px]">
               {{ tab.content2 }}
             </div>
-            <div class="text-black font-[500] md:text-[18px] text-[12px] mt-[20px]">
+            <div class="text-black font-[400] md:text-[18px] text-[12px] mt-[20px] md:mb-[8%] mb-[4%]">
               {{ tab.desc }}
             </div>
+            <a :href="tab.link" target="_blank"
+          class="md:h-[50px] h-[30px] w-[100%] bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] md:px-[20px] px-[5px] md:py-[10px] py-[3px] font-[700] md:text-[15px] text-[11px]"
+        >
+          바로가기
+        </a>
           </div>
           <div class="hidden md:block">
             <img :src="tab.img" />
@@ -289,35 +300,40 @@ const tabs = ref([
     content1: '브랜드의 AI검색 가시성 ',
     content2: '높여드립니다',
     desc: '브랜드의 성장을 이끄는 AI검색최적화를 위한 통합 마케팅 솔루션. 실시간 데이터 분석과 예측 알고리즘으로 귀사의 디지털 마케팅 전략을 혁신적으로 변화시킵니다. 고객 인사이트부터 캠페인 최적화까지, 스마트한 의사결정을 지원합니다.',
-    img: new URL('@/assets/img/ai-product/product1.svg', import.meta.url).href
+    img: new URL('@/assets/img/ai-product/product1.svg', import.meta.url).href,
+    link: 'https://bi.bluedot.so/'
   },
   {
     title: '블루닷 CMS',
-    content1: 'AI검색최적화 올인원 CMS',
-    content2: '',
+    content1: 'AI검색에 최적화한한',
+    content2: '올인원 CMS',
     desc: '차세대 AI 검색 최적화 CMS 플랫폼. 스키마 마크업, 메타데이터, 시맨틱 HTML 등 검색엔진이 선호하는 모든 기술 요소를 자동으로 최적화합니다. AI가 콘텐츠 구조와 의미를 이해하여 검색 노출도를 극대화하며, 기술에 대한 전문 지식 없이도 SEO에 완벽한 웹사이트를 구축할 수 있습니다.',
-    img: new URL('@/assets/img/ai-product/product2.svg', import.meta.url).href
+    img: new URL('@/assets/img/ai-product/product2.svg', import.meta.url).href,
+    link: 'https://bluedot.so/'
   },
   {
     title: '오웰',
-    content1: 'AI가 고품질 콘텐츠 생산을',
+    content1: 'AI가 고품질 기사 생산을',
     content2: '도와드립니다',
     desc: '언론사와 미디어를 위한 AI 기반 저널리즘 플랫폼. 방대한 데이터를 신속하게 분석하고, 뉴스 가치가 있는 인사이트를 발굴하여 고품질 기사 작성을 지원합니다. 팩트체크와 심층 리서치를 자동화하여 저널리스트의 제작 역량을 강화합니다.',
-    img: new URL('@/assets/img/ai-product/product3.svg', import.meta.url).href
+    img: new URL('@/assets/img/ai-product/product3.svg', import.meta.url).href,
+    link: 'https://orwell.bluedot.so/'
   },
   {
     title: '소포스',
-    content1: 'AI가 고품질 콘텐츠 생산을',
-    content2: '도와드립니다',
+    content1: 'AI가 선호하는 마케팅 콘텐츠를',
+    content2: '제작해드립니다',
     desc: '중소기업 마케터를 위한 직관적인 AI 마케팅 도구. 복잡한 디지털 마케팅을 쉽고 효율적으로 관리할 수 있습니다. 소규모 팀도 대기업 수준의 마케팅 성과를 낼 수 있도록 자동화된 캠페인 관리와 성과 분석을 제공합니다.',
-    img: new URL('@/assets/img/ai-product/product4.svg', import.meta.url).href
+    img: new URL('@/assets/img/ai-product/product4.svg', import.meta.url).href,
+    link: 'https://sofos.bluedot.so/'
   },
   {
     title: '퍼바이',
-    content1: 'AI가 고품질 콘텐츠 생산을',
-    content2: '도와드립니다',
+    content1: '공공기관 문서 업무를',
+    content2: 'AI가 대신해드립니다',
     desc: '공공기관 맞춤형 AI 업무 효율화 플랫폼. 행정 업무 자동화와 데이터 기반 의사결정을 지원하여 공공서비스의 품질을 높입니다. 정부 규제와 보안 요건을 준수하면서도 혁신적인 디지털 전환을 가능하게 합니다.',
-    img: new URL('@/assets/img/ai-product/product5.svg', import.meta.url).href
+    img: new URL('@/assets/img/ai-product/product5.svg', import.meta.url).href,
+    link: 'https://pubai.bluedot.so/'
   }
 ])
 
@@ -344,6 +360,36 @@ const prevSlide = () => {
     (activeSlide.value - 1 + slides.value.length) % slides.value.length
 }
 
+const handleSubmit = async (event) => {
+  try {
+    const form = event.target
+    const email = form.querySelector('input[name="email"]').value
+    const jsonData = {
+      email: email,
+      emailType: 'subscribe',
+      withMagiclink: true,
+      labels: [],
+      redirectURI: 'https://bluedot.so/blog/'
+    }
+
+    const response = await fetch('https://accounts.withbluedot.site/bluedot/blog/send-magic-link', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(jsonData)
+    })
+
+    const data = await response.json()
+    console.log(data)
+    if (data.token) {
+      window.open(`https://bluedot.so/blog/validate/?token=${data.token}&type=subscribe&lastPage=undefined&lastPageQuery=undefined&withMagiclink=true`)
+    }
+  } catch (error) {
+    console.error('Error submitting form:', error)
+  }
+}
+
 onMounted(() => {
   autoplayInterval = setInterval(nextSlide, 5000) // 5초마다 다음 슬라이드로
 })
@@ -351,4 +397,5 @@ onMounted(() => {
 onUnmounted(() => {
   if (autoplayInterval) clearInterval(autoplayInterval)
 })
+
 </script>

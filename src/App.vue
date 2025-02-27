@@ -13,7 +13,12 @@
   <TheFooter />
 </template>
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-applesdgothicneo@1.0/all.min.css">
+
 <style lang="stylus">
+body
+  font-family: 'AppleSDGothicNeo', sans-serif;
+
 body.view-mobile-menu
   height: 100vh
   overflow: hidden;
