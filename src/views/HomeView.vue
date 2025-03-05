@@ -28,7 +28,7 @@
       <div class="fade-in-2 text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[15%] px-[3%] text-center">
         데이터 분석 및 전략 제안부터 제작, 발행까지 전과정을 도와드립니다.
       </div>
-      <form @submit.prevent="handleSubmit" class="fade-in-4 flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
+      <form @submit.prevent="handleSubmit" class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
         <div class="md:w-[100%] w-[70%]">
           <input
             id="email-input"
@@ -448,24 +448,24 @@ onMounted(() => {
 <style scoped>
 .fade-in-1 {
   opacity: 0;
-  animation: fadeIn 0.8s ease-in forwards;
+  animation: fadeIn 0.8s ease forwards;
 }
 
 .fade-in-2 {
   opacity: 0;
-  animation: fadeIn 0.8s ease-in forwards;
+  animation: fadeIn 0.8s ease forwards;
   animation-delay: 0.3s;
 }
 
 .fade-in-3 {
   opacity: 0;
-  animation: fadeIn 0.8s ease-in forwards;
+  animation: fadeIn 0.8s ease forwards;
   animation-delay: 0.6s;
 }
 
 .fade-in-4 {
   opacity: 0;
-  animation: fadeIn 0.8s ease-in forwards;
+  animation: fadeIn 0.8s ease forwards;
   animation-delay: 0.9s;
 }
 
