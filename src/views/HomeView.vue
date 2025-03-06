@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-[#0A142F] w-full pb-[3%] relative overflow-hidden">
+  <div class="bg-[#0A142F] w-full pb-[100px] relative overflow-hidden">
     <!-- Add blob SVGs -->
     <div class="absolute w-full h-full top-0 left-0">
       <svg class="blob blob-1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
@@ -76,7 +76,7 @@
       </svg>
 
       <div class="text-[#FFFFFF] md:text-[30px] text-[24px] font-[900] md:mb-0 mb-[10px]">
-        우리의 AI 프로덕트
+        우리의 AI 서비스
       </div>
     </div>
     <div class="flex justify-center items-center md:px-[15%] px-[3%]"></div>
@@ -116,7 +116,7 @@
 
       <!-- 탭 컨텐츠 -->
       <div
-        class="bg-[#FFFFFF] px-[5%] pt-[4%] pb-[3%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
+        class="bg-[#FFFFFF] px-[5%] md:px-[100px] pt-[4%] pb-[3%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
       >
         <div
           class="flex justify-between gap-x-[4%]"
@@ -150,7 +150,7 @@
       </div>
     </div>
   </div>
-  <div class="bg-[#D6E2FF] w-full py-[3%] md:px-[15%] px-[3%]">
+  <div class="bg-[#D6E2FF] w-full py-[80px] md:px-[15%] px-[3%]">
     <div class="md:text-[36px] text-[24px] font-[900]">
       AI 검색이 기존 검색 시장을 위협합니다
     </div>
@@ -163,7 +163,7 @@
       <span class="font-[900]">구글 AI 검색</span>에 우선적으로 초점을 맞춰야
       합니다
     </div>
-    <div class="md:flex md:h-[480px] gap-x-[3%] mt-[20px]">
+    <div class="md:flex gap-x-[3%] mt-[20px]">
       <div class="md:h-[480px] w-[70%]">
         <img src="@/assets/img/ai-search/search1.svg" />
       </div>
@@ -196,7 +196,7 @@
       >입니다.
     </div>
   </div>
-  <div class="bg-[#EAF0FF] w-full pt-[3%] md:px-[15%] px-[3%] pb-[5%]">
+  <div class="bg-[#EAF0FF] w-full pt-[3%] md:px-[15%] px-[3%] pb-[5%] h-[670px] flex items-center">
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-[300px] overflow-hidden rounded-lg">
@@ -212,7 +212,7 @@
           data-carousel-item
         >
           <div
-            class="flex flex-col items-center justify-center h-full text-center p-8 md:w-[430px] w-[75%] mx-auto"
+            class="flex flex-col items-center justify-center h-full text-center p-8 md:w-[450px] w-[75%] mx-auto"
           >
             <p class="text-[#4F5870] md:text-[25px] text-[13px] font-[700] mb-2">
               {{ slide.mainText }}
@@ -378,6 +378,7 @@ const slides = ref([
 ])
 
 let autoplayInterval
+let tabInterval
 
 const nextSlide = () => {
   activeSlide.value = (activeSlide.value + 1) % slides.value.length
@@ -428,6 +429,11 @@ const starPositions = Array.from({ length: 12 }, () => ({
 onMounted(() => {
   autoplayInterval = setInterval(nextSlide, 5000) // 5초마다 다음 슬라이드로
 
+  // Start tab rotation
+  tabInterval = setInterval(() => {
+    activeTab.value = (activeTab.value + 1) % tabs.value.length
+  }, 2500)
+
   const handleMouseMove = (e) => {
     const x = e.clientX / window.innerWidth
     const y = e.clientY / window.innerHeight
@@ -439,6 +445,7 @@ onMounted(() => {
 
   onUnmounted(() => {
     if (autoplayInterval) clearInterval(autoplayInterval)
+    if (tabInterval) clearInterval(tabInterval)
     window.removeEventListener('mousemove', handleMouseMove)
   })
 })
