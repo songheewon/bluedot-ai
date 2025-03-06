@@ -80,7 +80,7 @@
       </div>
     </div>
     <div class="flex justify-center items-center md:px-[15%] px-[3%]"></div>
-    <div class="md:px-[15%] px-[3%] mt-[2%]">
+    <div class="md:px-[15%] px-[3%] mt-[2%] relative z-[100] ">
       <!-- 탭 헤더 -->
       <div
         class="flex flex-wrap bg-[#FFFFFF] w-[100%] justify-between md:rounded-tl-[42px] md:rounded-tr-[42px] rounded-tl-[20px] rounded-tr-[20px]"
@@ -97,7 +97,7 @@
           >
             <button
               :class="[
-                'inline-block md:p-4 p-1 w-full h-full whitespace-normal',
+                'inline-block md:p-4 p-1 w-full h-full whitespace-normal relative z-[100]',
                 activeTab === index
                   ? 'text-black md:text-[18px] text-[11px] font-[700] border-b-[5px] border-[#3C72FF] active'
                   : 'text-black md:text-[18px] text-[11px] font-[700] hover:text-gray-600 hover:border-gray-300 border-b-[5px] border-[#E8E6E6] ',
