@@ -333,7 +333,7 @@ const tabs = ref([
   },
   {
     title: '블루닷 CMS',
-    content1: 'AI검색에 최적화한한',
+    content1: 'AI검색에 최적화한',
     content2: '올인원 CMS',
     desc: '차세대 AI 검색 최적화 CMS 플랫폼. 스키마 마크업, 메타데이터, 시맨틱 HTML 등 검색엔진이 선호하는 모든 기술 요소를 자동으로 최적화합니다. AI가 콘텐츠 구조와 의미를 이해하여 검색 노출도를 극대화하며, 기술에 대한 전문 지식 없이도 SEO에 완벽한 웹사이트를 구축할 수 있습니다.',
     img: new URL('@/assets/img/ai-product/product2.svg', import.meta.url).href,
