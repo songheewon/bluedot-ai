@@ -22,10 +22,10 @@
     <div
       class="w-full md:h-[730px] h-auto mx-auto flex flex-col items-center bg-[url('@/assets/img/home-bg.svg')] bg-cover bg-bottom bg-no-repeat relative z-10"
     >
-      <div class="fade-in-1 text-[#FFFFFF] md:text-[50px] text-[25px] font-[900] mt-[5%] md:px-[15%] px-[3%] text-center">
+      <div class="fade-in-1 text-[#FFFFFF] md:text-[50px] text-[25px] font-[900] mt-[5%] md:px-[12%] px-[3%] text-center">
         AI 검색최적화를 위한 AtoZ AI 종합 솔루션
       </div>
-      <div class="fade-in-2 text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[15%] px-[3%] text-center">
+      <div class="fade-in-2 text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[12%] px-[3%] text-center">
         데이터 분석 및 전략 제안부터 제작, 발행까지 전과정을 도와드립니다.
       </div>
       <form @submit.prevent="handleSubmit" class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
@@ -50,7 +50,7 @@
         </div>
       </form>
     </div>
-    <div class="flex md:mt-[-6%] mt-[10%] md:px-[15%] px-[3%] gap-x-[20px] items-center">
+    <div class="flex md:mt-[-6%] mt-[10%] md:px-[12%] px-[3%] gap-x-[20px] items-center">
       <svg
         width="44"
         height="44"
@@ -80,7 +80,7 @@
       </div>
     </div>
     <div class="flex justify-center items-center md:px-[15%] px-[3%]"></div>
-    <div class="md:px-[15%] px-[3%] mt-[2%] relative z-[100] ">
+    <div class="md:px-[12%] px-[3%] mt-[2%] relative z-[100] ">
       <!-- 탭 헤더 -->
       <div
         class="flex flex-wrap bg-[#FFFFFF] w-[100%] justify-between md:rounded-tl-[42px] md:rounded-tr-[42px] rounded-tl-[20px] rounded-tr-[20px]"
@@ -90,7 +90,7 @@
           role="tablist"
         >
           <li
-            class="w-[20%] md:py-[5px]"
+            class="w-[20%] md:py-[12px]"
             role="presentation"
             v-for="(tab, index) in tabs"
             :key="index"
@@ -116,7 +116,7 @@
 
       <!-- 탭 컨텐츠 -->
       <div
-        class="bg-[#FFFFFF] px-[5%] md:px-[100px] pt-[4%] pb-[3%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
+        class="bg-[#FFFFFF] px-[5%] md:px-[100px] py-[5%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
       >
         <div
           class="flex justify-between gap-x-[4%]"
