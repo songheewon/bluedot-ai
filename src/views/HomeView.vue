@@ -350,7 +350,7 @@ const tabs = ref([
   {
     title: '소포스',
     content1: 'AI가 선호하는 마케팅',
-    content2: ' 콘텐츠를 제작해드립니다',
+    content2: ' 콘텐츠를 제작합니니다',
     desc: '중소기업 마케터를 위한 직관적인 AI 마케팅 도구. 복잡한 디지털 마케팅을 쉽고 효율적으로 관리할 수 있습니다. 소규모 팀도 대기업 수준의 마케팅 성과를 낼 수 있도록 자동화된 캠페인 관리와 성과 분석을 제공합니다.',
     img: new URL('@/assets/img/ai-product/product4.svg', import.meta.url).href,
     link: 'https://sofos.bluedot.so/'
