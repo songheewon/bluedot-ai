@@ -128,7 +128,7 @@
             <div class="text-[#3C72FF] md:text-[16px] text-[12px] font-[700]">
               {{ tab.title }}
             </div>
-            <div class="text-black font-[900] text-[20px] md:text-[24px] custom:text-[36px] mt-[10px]">
+            <div class="text-black font-[900] text-[20px] md:text-[24px] custom:text-[36px] mt-[10px] whitespace-normal" style="word-break: keep-all;">
               {{ tab.content1 }}
             </div>
             <div class="text-black font-[400] md:text-[18px] text-[12px] mt-[20px] md:mb-[8%] mb-[4%]">
