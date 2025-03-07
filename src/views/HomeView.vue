@@ -90,14 +90,14 @@
           role="tablist"
         >
           <li
-            class="w-[20%] md:py-[12px]"
+            class="w-[20%]"
             role="presentation"
             v-for="(tab, index) in tabs"
             :key="index"
           >
             <button
               :class="[
-                'inline-block md:p-4 p-1 w-full h-full whitespace-normal relative z-[100]',
+                'inline-block md:p-4 p-1 w-full h-full whitespace-normal relative z-[100] mb-[12px]',
                 activeTab === index
                   ? 'text-black md:text-[18px] text-[11px] font-[700] border-b-[5px] border-[#3C72FF] active'
                   : 'text-black md:text-[18px] text-[11px] font-[700] hover:text-gray-600 hover:border-gray-300 border-b-[5px] border-[#E8E6E6] ',
@@ -116,7 +116,7 @@
 
       <!-- 탭 컨텐츠 -->
       <div
-        class="bg-[#FFFFFF] px-[5%] md:px-[100px] py-[5%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
+        class="bg-[#FFFFFF] px-[30px] md:px-[90px] py-[5%] flex justify-between gap-x-[4%] md:rounded-bl-[42px] md:rounded-br-[42px] rounded-bl-[20px] rounded-br-[20px]"
       >
         <div
           class="flex justify-between gap-x-[4%]"
@@ -124,14 +124,14 @@
           :key="index"
           v-show="activeTab === index"
         >
-          <div class="md:w-[40%] w-[100%]">
+          <div class="lg:w-[40%] w-[100%]">
             <div class="text-[#3C72FF] md:text-[16px] text-[12px] font-[700]">
               {{ tab.title }}
             </div>
-            <div class="text-black font-[900] md:text-[36px] text-[20px] mt-[10px]">
+            <div class="text-black font-[900] text-[20px] md:text-[24px] custom:text-[36px] mt-[10px]">
               {{ tab.content1 }}
             </div>
-            <div class="text-black font-[900] md:text-[36px] text-[20px] mt-[-5px]">
+            <div class="text-black font-[900] text-[20px] md:text-[24px] custom:text-[36px] text-[20px] mt-[-5px]">
               {{ tab.content2 }}
             </div>
             <div class="text-black font-[400] md:text-[18px] text-[12px] mt-[20px] md:mb-[8%] mb-[4%]">
@@ -143,7 +143,7 @@
           바로가기
         </a>
           </div>
-          <div class="hidden md:block">
+          <div class="hidden lg:block">
             <img :src="tab.img" />
           </div>
         </div>

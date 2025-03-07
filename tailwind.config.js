@@ -11,7 +11,8 @@ module.exports = {
       mdl: '880px',
       lg: '1040px',
       xl: '1040px',
-      xxl: '1410px'
+      xxl: '1410px',
+      custom: '1550px'
     },
     container: {
       padding: '1.25rem',
