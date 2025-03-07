@@ -131,9 +131,6 @@
             <div class="text-black font-[900] text-[20px] md:text-[24px] custom:text-[36px] mt-[10px]">
               {{ tab.content1 }}
             </div>
-            <div class="text-black font-[900] text-[20px] md:text-[24px] custom:text-[36px] text-[20px] mt-[-5px]">
-              {{ tab.content2 }}
-            </div>
             <div class="text-black font-[400] md:text-[18px] text-[12px] mt-[20px] md:mb-[8%] mb-[4%]">
               {{ tab.desc }}
             </div>
@@ -325,15 +322,15 @@ const activeTab = ref(0)
 const tabs = ref([
   {
     title: '블루닷 인텔리전스',
-    content1: '브랜드의 AI검색 가시성 ',
-    content2: '높여드립니다',
+    content1: '브랜드의 AI검색 가시성 높여드립니다',
+    content2: '',
     desc: '브랜드의 성장을 이끄는 AI검색최적화를 위한 통합 마케팅 솔루션. 실시간 데이터 분석과 예측 알고리즘으로 귀사의 디지털 마케팅 전략을 혁신적으로 변화시킵니다. 고객 인사이트부터 캠페인 최적화까지, 스마트한 의사결정을 지원합니다.',
     img: new URL('@/assets/img/ai-product/product1.svg', import.meta.url).href,
     link: 'https://bi.bluedot.so/'
   },
   {
     title: '블루닷 CMS',
-    content1: 'AI검색에 최적화한',
+    content1: 'AI검색에 최적화한 올인원 CMS',
     content2: '올인원 CMS',
     desc: '차세대 AI 검색 최적화 CMS 플랫폼. 스키마 마크업, 메타데이터, 시맨틱 HTML 등 검색엔진이 선호하는 모든 기술 요소를 자동으로 최적화합니다. AI가 콘텐츠 구조와 의미를 이해하여 검색 노출도를 극대화하며, 기술에 대한 전문 지식 없이도 SEO에 완벽한 웹사이트를 구축할 수 있습니다.',
     img: new URL('@/assets/img/ai-product/product2.svg', import.meta.url).href,
@@ -341,7 +338,7 @@ const tabs = ref([
   },
   {
     title: '오웰',
-    content1: 'AI가 고품질 기사 생산을',
+    content1: 'AI가 고품질 기사 생산을 도와드립니다',
     content2: '도와드립니다',
     desc: '언론사와 미디어를 위한 AI 기반 저널리즘 플랫폼. 방대한 데이터를 신속하게 분석하고, 뉴스 가치가 있는 인사이트를 발굴하여 고품질 기사 작성을 지원합니다. 팩트체크와 심층 리서치를 자동화하여 저널리스트의 제작 역량을 강화합니다.',
     img: new URL('@/assets/img/ai-product/product3.svg', import.meta.url).href,
@@ -349,7 +346,7 @@ const tabs = ref([
   },
   {
     title: '소포스',
-    content1: 'AI가 선호하는 마케팅',
+    content1: 'AI가 선호하는 마케팅 콘텐츠를 제작합니다',
     content2: '콘텐츠를 제작합니다',
     desc: '중소기업 마케터를 위한 직관적인 AI 마케팅 도구. 복잡한 디지털 마케팅을 쉽고 효율적으로 관리할 수 있습니다. 소규모 팀도 대기업 수준의 마케팅 성과를 낼 수 있도록 자동화된 캠페인 관리와 성과 분석을 제공합니다.',
     img: new URL('@/assets/img/ai-product/product4.svg', import.meta.url).href,
@@ -357,7 +354,7 @@ const tabs = ref([
   },
   {
     title: '퍼바이',
-    content1: '공공기관 문서 업무를',
+    content1: '공공기관 문서 업무를 AI가 대신해드립니다',
     content2: 'AI가 대신해드립니다',
     desc: '공공기관 맞춤형 AI 업무 효율화 플랫폼. 행정 업무 자동화와 데이터 기반 의사결정을 지원하여 공공서비스의 품질을 높입니다. 정부 규제와 보안 요건을 준수하면서도 혁신적인 디지털 전환을 가능하게 합니다.',
     img: new URL('@/assets/img/ai-product/product5.svg', import.meta.url).href,
