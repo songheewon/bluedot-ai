@@ -22,6 +22,9 @@
           대표 전화: 070-4138-0657
         </div>
         <div class="my-2">
+          대표 이메일: bluedot@mediasphere.kr
+        </div>
+        <div class="my-2">
           서울시 용산구 한강대로 366, 트윈시티 남산 651호
         </div>
         <div class="my-2">
