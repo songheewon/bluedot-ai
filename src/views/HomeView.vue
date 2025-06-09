@@ -90,7 +90,7 @@
           role="tablist"
         >
           <li
-            class="w-[20%]"
+            class="w-[25%]"
             role="presentation"
             v-for="(tab, index) in tabs"
             :key="index"
@@ -351,14 +351,6 @@ const tabs = ref([
     desc: '중소기업 마케터를 위한 직관적인 AI 마케팅 도구. 복잡한 디지털 마케팅을 쉽고 효율적으로 관리할 수 있습니다. 소규모 팀도 대기업 수준의 마케팅 성과를 낼 수 있도록 자동화된 캠페인 관리와 성과 분석을 제공합니다.',
     img: new URL('@/assets/img/ai-product/product4.svg', import.meta.url).href,
     link: 'https://sofos.bluedot.so/'
-  },
-  {
-    title: '퍼바이',
-    content1: '공공기관 문서 업무를 AI가 대신해드립니다',
-    content2: 'AI가 대신해드립니다',
-    desc: '공공기관 맞춤형 AI 업무 효율화 플랫폼. 행정 업무 자동화와 데이터 기반 의사결정을 지원하여 공공서비스의 품질을 높입니다. 정부 규제와 보안 요건을 준수하면서도 혁신적인 디지털 전환을 가능하게 합니다.',
-    img: new URL('@/assets/img/ai-product/product5.svg', import.meta.url).href,
-    link: 'https://pubai.bluedot.so/'
   }
 ])
 

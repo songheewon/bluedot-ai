@@ -54,7 +54,6 @@
           <a class="block my-3 text-[13px]" href="https://cms.bluedot.so/" target="_blank">블루닷 CMS</a>
           <a class="block my-3 text-[13px]" href="https://orwell.bluedot.so/" target="_blank">오웰</a>
           <a class="block my-3 text-[13px]" href="https://sofos.bluedot.so/" target="_blank">소포스</a>
-          <a class="block my-3 text-[13px]" href="https://pubai.bluedot.so/" target="_blank">퍼바이</a>
         </div>
       </div>
       <div class="md:w-1/8 md:mt-0 mt-[50px]">
