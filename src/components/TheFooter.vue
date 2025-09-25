@@ -3,8 +3,8 @@
     <div class="md:w-full md:flex md:px-[15%] px-[3%] justify-between mx-auto py-14 md:py-14 text-[#0A142F] text-[12px] text-[#0A142F]">
       <div class="md:w-1/3">
         <div class="mb-6">
-          <img class="object-cover"
-            src="@/assets/img/sns-icon/bluedot.svg"
+          <img class="object-cover w-[222px] h-auto grayscale contrast-75"
+            src="@/assets/img/logo_bluedotai_s.png"
             alt="블루닷 공식 블로그의 로고">
         </div>
         <div class="my-2 flex gap-x-[20px]">
