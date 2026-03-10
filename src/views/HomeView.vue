@@ -1,26 +1,7 @@
 <template>
-  <div class="bg-[#0A142F] w-full pb-[100px] relative overflow-hidden">
-    <!-- Add blob SVGs -->
-    <div class="absolute w-full h-full top-0 left-0">
-      <svg class="blob blob-1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="rgba(60, 114, 255, 0.1)" transform="translate(100 100)">
-          <animate attributeName="d" dur="10s" repeatCount="indefinite" values="
-            M40.7,-68.2C54.9,-64.3,70,-55.5,75.5,-42.3C81,-29,77,-11.4,74.1,5.1C71.2,21.7,69.4,37.2,61.3,48.5C53.2,59.8,38.8,67,23.4,71.7C8,76.4,-8.3,78.6,-22.7,74.3C-37.1,70,-49.5,59.2,-59.1,46.4C-68.7,33.6,-75.5,18.8,-77.9,2.4C-80.4,-14,-78.5,-31.6,-69.8,-44.3C-61.1,-57,-45.6,-64.8,-31.1,-68.7C-16.6,-72.6,-3.1,-72.7,8.8,-70.1C20.8,-67.5,26.5,-72.2,40.7,-68.2Z;
-            M43.3,-73.6C57.9,-69.2,73,-59.5,79.1,-45.3C85.3,-31,82.5,-12.2,78.8,5.4C75.1,23,70.4,39.4,61.1,51.8C51.8,64.2,37.9,72.6,22.7,76.3C7.5,80,-9,79,-23.2,73.8C-37.5,68.6,-49.5,59.2,-59.2,47.2C-68.9,35.2,-76.3,20.6,-78.5,4.7C-80.7,-11.2,-77.7,-28.4,-69.1,-42.1C-60.5,-55.8,-46.3,-66,-32.1,-70.5C-17.9,-75,-3.7,-73.8,9.7,-71.2C23.2,-68.6,28.7,-78,43.3,-73.6Z;
-            M40.7,-68.2C54.9,-64.3,70,-55.5,75.5,-42.3C81,-29,77,-11.4,74.1,5.1C71.2,21.7,69.4,37.2,61.3,48.5C53.2,59.8,38.8,67,23.4,71.7C8,76.4,-8.3,78.6,-22.7,74.3C-37.1,70,-49.5,59.2,-59.1,46.4C-68.7,33.6,-75.5,18.8,-77.9,2.4C-80.4,-14,-78.5,-31.6,-69.8,-44.3C-61.1,-57,-45.6,-64.8,-31.1,-68.7C-16.6,-72.6,-3.1,-72.7,8.8,-70.1C20.8,-67.5,26.5,-72.2,40.7,-68.2Z"></animate>
-        </path>
-      </svg>
-      <svg class="blob blob-2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-        <path fill="rgba(60, 114, 255, 0.05)" transform="translate(100 100)">
-          <animate attributeName="d" dur="12s" repeatCount="indefinite" values="
-            M45.3,-77.5C59.9,-71.3,73.8,-61.1,81.7,-47.3C89.6,-33.4,91.5,-16.7,89.8,-1C88.1,14.7,82.8,29.3,74.7,42.3C66.6,55.2,55.7,66.4,42.3,73.7C28.8,81,14.4,84.4,-0.2,84.7C-14.8,85,-29.6,82.2,-43.5,75.6C-57.3,69,-70.2,58.6,-78.9,44.7C-87.6,30.8,-92.1,13.4,-90.8,-3.3C-89.4,-20,-82.1,-36.9,-71.3,-49.8C-60.5,-62.6,-46.1,-71.3,-31.8,-77.5C-17.4,-83.7,-3.1,-87.4,9.7,-84.8C22.5,-82.2,30.7,-83.7,45.3,-77.5Z;
-            M43.3,-73.6C57.9,-69.2,73,-59.5,79.1,-45.3C85.3,-31,82.5,-12.2,78.8,5.4C75.1,23,70.4,39.4,61.1,51.8C51.8,64.2,37.9,72.6,22.7,76.3C7.5,80,-9,79,-23.2,73.8C-37.5,68.6,-49.5,59.2,-59.2,47.2C-68.9,35.2,-76.3,20.6,-78.5,4.7C-80.7,-11.2,-77.7,-28.4,-69.1,-42.1C-60.5,-55.8,-46.3,-66,-32.1,-70.5C-17.9,-75,-3.7,-73.8,9.7,-71.2C23.2,-68.6,28.7,-78,43.3,-73.6Z;
-            M45.3,-77.5C59.9,-71.3,73.8,-61.1,81.7,-47.3C89.6,-33.4,91.5,-16.7,89.8,-1C88.1,14.7,82.8,29.3,74.7,42.3C66.6,55.2,55.7,66.4,42.3,73.7C28.8,81,14.4,84.4,-0.2,84.7C-14.8,85,-29.6,82.2,-43.5,75.6C-57.3,69,-70.2,58.6,-78.9,44.7C-87.6,30.8,-92.1,13.4,-90.8,-3.3C-89.4,-20,-82.1,-36.9,-71.3,-49.8C-60.5,-62.6,-46.1,-71.3,-31.8,-77.5C-17.4,-83.7,-3.1,-87.4,9.7,-84.8C22.5,-82.2,30.7,-83.7,45.3,-77.5Z"></animate>
-        </path>
-      </svg>
-    </div>
+  <div class="bg-[#0A142F] bg-[url('@/assets/css/top-background-000.svg')] bg-cover bg-[center_40%] bg-no-repeat w-full pb-[100px] relative overflow-x-hidden">
     <div
-      class="w-full md:h-[730px] h-auto mx-auto flex flex-col items-center bg-[url('@/assets/img/home-bg.svg')] bg-cover bg-bottom bg-no-repeat relative z-10"
+      class="w-full md:h-[730px] h-auto mx-auto flex flex-col items-center relative z-10"
     >
       <div class="fade-in-1 text-[#FFFFFF] md:text-[50px] text-[25px] font-[900] mt-[5%] md:px-[12%] px-[3%] text-center">
         AI 검색최적화를 위한 AtoZ AI 종합 솔루션
@@ -28,22 +9,22 @@
       <div class="fade-in-2 text-[#FFFFFF] md:text-[20px] text-[15px] font-[500] mt-[2%] md:px-[12%] px-[3%] text-center">
         데이터 분석 및 전략 제안부터 제작, 발행까지 전과정을 도와드립니다.
       </div>
-      <form @submit.prevent="handleSubmit" class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0">
-        <div class="md:w-[100%] w-[70%]">
+      <form @submit.prevent="handleSubmit" class="flex md:gap-x-[20px] gap-x-[8px] mt-[4%] md:px-0 px-[3%] w-full max-w-full justify-center">
+        <div class="flex-shrink-0">
           <input
             id="email-input"
             name="email"
             type="text"
-            class="md:w-[450px] md:h-[50px] h-[30px] w-[100%] bg-[#4F5870] rounded-[26px] px-[20px] py-[10px] border-none text-[#FFFFFF]"
+            class="md:w-[450px] md:h-[50px] h-[30px] w-full max-w-full bg-[#FFFFFF] rounded-[26px] px-[20px] py-[10px] border-none text-[#000000]"
           />
           <input type="hidden" name="emailType" value="subscribe" />
           <input type="hidden" name="withMagiclink" value="true" />
           <input type="hidden" name="labels" value="[]" />
           <input type="hidden" name="redirectURI" value="https://bluedot.so/blog/" />
         </div>
-        <div class="md:w-[100%] w-[30%]">
+        <div class="flex-shrink-0">
           <button type="submit"
-            class="md:h-[50px] h-[30px] w-[100%] bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] md:px-[20px] px-[5px] md:py-[10px] py-[3px] font-[700] md:text-[15px] text-[11px] transition-transform duration-200 hover:scale-105"
+            class="md:h-[50px] h-[30px] w-full bg-[#3C72FF] text-[#FFFFFF] rounded-[26px] md:px-[20px] px-[5px] md:py-[10px] py-[3px] font-[700] md:text-[15px] text-[11px] transition-transform duration-200 hover:scale-105 whitespace-nowrap"
           >
             새소식 받기
           </button>
@@ -86,11 +67,11 @@
         class="flex flex-wrap bg-[#FFFFFF] w-[100%] justify-between md:rounded-tl-[42px] md:rounded-tr-[42px] rounded-tl-[20px] rounded-tr-[20px]"
       >
         <ul
-          class="flex flex-wrap -mb-px text-sm font-medium text-center w-[100%] justify-between h-full"
+          class="flex flex-wrap -mb-px text-sm font-medium text-center w-[100%] h-full"
           role="tablist"
         >
           <li
-            class="w-[25%]"
+            class="w-1/3"
             role="presentation"
             v-for="(tab, index) in tabs"
             :key="index"
@@ -301,18 +282,6 @@
       </div>
     </div>
   </div>
-  <div class="absolute inset-0 pointer-events-none">
-    <div
-      v-for="(position, index) in starPositions"
-      :key="index"
-      class="star absolute animate-twinkle"
-      :style="position"
-    >
-      <svg width="55" height="56" viewBox="0 0 55 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M11.6222 55.1531C12.1926 33.3258 11.492 30.7147 0.0627297 12.0701C21.89 12.6405 24.5011 11.9399 43.1457 0.510667C42.5753 22.338 43.2759 24.9491 54.7052 43.5936C32.8779 43.0233 30.2668 43.7238 11.6222 55.1531Z" fill="white"/>
-      </svg>
-    </div>
-  </div>
 </template>
 
 <script setup>
@@ -343,14 +312,6 @@ const tabs = ref([
     desc: '언론사와 미디어를 위한 AI 기반 저널리즘 플랫폼. 방대한 데이터를 신속하게 분석하고, 뉴스 가치가 있는 인사이트를 발굴하여 고품질 기사 작성을 지원합니다. 팩트체크와 심층 리서치를 자동화하여 저널리스트의 제작 역량을 강화합니다.',
     img: new URL('@/assets/img/ai-product/product3.svg', import.meta.url).href,
     link: 'https://orwell.bluedot.so/'
-  },
-  {
-    title: '소포스',
-    content1: 'AI가 선호하는 마케팅 콘텐츠를 제작합니다',
-    content2: '콘텐츠를 제작합니다',
-    desc: '중소기업 마케터를 위한 직관적인 AI 마케팅 도구. 복잡한 디지털 마케팅을 쉽고 효율적으로 관리할 수 있습니다. 소규모 팀도 대기업 수준의 마케팅 성과를 낼 수 있도록 자동화된 캠페인 관리와 성과 분석을 제공합니다.',
-    img: new URL('@/assets/img/ai-product/product4.svg', import.meta.url).href,
-    link: 'https://sofos.bluedot.so/'
   }
 ])
 
@@ -408,13 +369,6 @@ const handleSubmit = async (event) => {
   }
 }
 
-const starPositions = Array.from({ length: 12 }, () => ({
-  left: `${Math.random() * 100}%`,
-  top: `${Math.random() * 100}%`,
-  transform: `scale(${0.1 + Math.random() * 0.5}) rotate(${Math.random() * 360}deg)`,
-  animationDuration: `${2 + Math.random() * 3}s`
-}))
-
 onMounted(() => {
   autoplayInterval = setInterval(nextSlide, 5000) // 5초마다 다음 슬라이드로
 
@@ -423,19 +377,9 @@ onMounted(() => {
     activeTab.value = (activeTab.value + 1) % tabs.value.length
   }, 2500)
 
-  const handleMouseMove = (e) => {
-    const x = e.clientX / window.innerWidth
-    const y = e.clientY / window.innerHeight
-    document.documentElement.style.setProperty('--mouse-x', x.toString())
-    document.documentElement.style.setProperty('--mouse-y', y.toString())
-  }
-
-  window.addEventListener('mousemove', handleMouseMove)
-
   onUnmounted(() => {
     if (autoplayInterval) clearInterval(autoplayInterval)
     if (tabInterval) clearInterval(tabInterval)
-    window.removeEventListener('mousemove', handleMouseMove)
   })
 })
 
@@ -476,93 +420,4 @@ onMounted(() => {
   }
 }
 
-.star {
-  opacity: 0.5;
-}
-
-.animate-twinkle {
-  animation: twinkle ease-in-out infinite;
-}
-
-@keyframes twinkle {
-  0% {
-    opacity: 0.2;
-  }
-  50% {
-    opacity: 0.8;
-  }
-  100% {
-    opacity: 0.2;
-  }
-}
-
-.blob {
-  position: absolute;
-  width: 800px;
-  height: 800px;
-  transition: transform 0.3s ease-out;
-}
-
-.blob:hover {
-  transform: scale(1.1) rotate(10deg);
-  filter: brightness(1.2);
-}
-
-.blob-1 {
-  top: -20%;
-  right: -10%;
-  animation: rotate 20s linear infinite;
-  transform-origin: center center;
-}
-
-.blob-2 {
-  bottom: 50%;
-  left: 0%;
-  animation: rotate 20s linear infinite reverse;
-  transform-origin: center center;
-}
-
-.blob-3 {
-  bottom: 10%;
-  left: 85%;
-  animation: rotate 20s linear infinite reverse;
-  transform-origin: center center;
-}
-
-@keyframes float {
-  0% {
-    transform: translateY(0px) rotate(0deg);
-  }
-  50% {
-    transform: translateY(-20px) rotate(180deg);
-  }
-  100% {
-    transform: translateY(0px) rotate(360deg);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-/* 마우스 움직임에 따른 시차 효과 */
-@media (hover: hover) {
-  .blob {
-    transition: transform 0.2s ease-out;
-  }
-  .blob-1 {
-    transform: translate(calc(var(--mouse-x, 0) * -20px), calc(var(--mouse-y, 0) * -20px));
-  }
-  .blob-2 {
-    transform: translate(calc(var(--mouse-x, 0) * 15px), calc(var(--mouse-y, 0) * 15px));
-  }
-  .blob-3 {
-    transform: translate(calc(var(--mouse-x, 0) * -10px), calc(var(--mouse-y, 0) * -10px));
-  }
-}
 </style>
